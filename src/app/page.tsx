@@ -6,6 +6,7 @@ export default function Home() {
     <div className="text-3xl text-teal-700">JWT TOKEN</div>
     <Link href={"/login"}>Login Page</Link> <br/>
     <Link href={"/protect"}>Protect Page</Link><br/>
+    <p><b>username and password</b>admin</p>
    
   </div>;
 }

@@ -41,7 +41,7 @@ export const middleware = async (request: NextRequest) => {
 
 // config k variable mai khud define krna h
 export const config = {
-  matcher: ["/", "/login", "/protected"], // in pages pe middleware chlen ga or b jo mrzi page add ye remove kr skte jin pe middleware chlna ho
+  matcher: ["/login", "/protected"], // in pages pe middleware chlen ga or b jo mrzi page add ye remove kr skte jin pe middleware chlna ho
 };
 
 /* 

@@ -18,7 +18,7 @@ export const middleware = async (request: NextRequest) => {
     if (!token) {
       return NextResponse.redirect("http://localhost:3000/login");
     }
-    // jwtVerify mai value provide krni hai 
+    // jwtVerify mai value provide krni hai  
     const verifyToken = await jwtVerify(
       token,
       new TextEncoder().encode(getJWTSecretKey())
